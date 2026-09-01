@@ -17,7 +17,9 @@ at the heart of modern machine learning.
 * **Time:** Tuesday/Thursday 9:30 - 10:45 AM
 * **Location:** Olsson 001 / Zoom
 * **Instructor:** Tom Fletcher (ptf8v *AT* virginia *DOT* edu)
-  - Office Hours: Wednesdays 11 AM - 12 noon, Rice 306
+  - Office Hours: Mondays 1:30 - 2:30 PM, Rice 306
+* **TA:** Qiheng Lu (eqk6tw *AT* virginia *DOT* edu)
+  - Office Hours: Wednesdays 1:00 - 2:00 PM, Thornton B205
 * **Prerequisites:** You should have basic (undergraduate level) knowledge of Linear Algebra, Multivariate Calculus, and be comfortable programming in Python.
 * **Software:** All homeworks will be done in [Jupyter](https://jupyter.org)
 
