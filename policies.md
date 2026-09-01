@@ -7,8 +7,7 @@
 **Announcements.** Important announcements, such as assignment corrections or deadline changes, will be sent to the class via the Canvas announcements for this class. Make sure that you have setup Canvas to send you announcements to an email address that you will check regularly, as they may be time-sensitive.
 
 **Grading.** The course grade will consist of several equally-weighted homeworks
-(20%), in-person quizzes (40%), and an in-person final exam (40%). **Note:**
-Depending on logistics, some portion of the in-person grade may include an oral portion.
+(20%), in-person quizzes (40%), and an in-person final exam (40%).
 
 Homework assignments will entail writing Python code to solve problems as well as written math problems and questions. Submissions must be Jupyter notebooks, which lets you combine formatted text and Python code in an easy-to-use format. All mathematics must be formatted using LaTeX in the Jupyter notebook.
 
