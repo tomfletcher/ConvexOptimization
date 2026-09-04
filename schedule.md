@@ -4,7 +4,7 @@
 |-----------|-----------------------------------------|----------------|----------------------------|
 | Tue 8/25  | Introduction                            | B&V Ch 1       |                            |
 | Thu 8/27  | Math Review: SVD, norms, etc.           | B&V Appendix A |                            |
-| Tue 9/1   | Convex Sets                             | B&V Ch 2       | [HW 1](homeworks/hw1.pdf) **Due Fri, 9/18**<br>[LaTeX Source](hw1-example.tex) |
+| Tue 9/1   | Convex Sets                             | B&V Ch 2       | [HW 1](homeworks/hw1.pdf) **Due Fri, 9/18**<br>[LaTeX Source](homeworks/hw1-example.tex) |
 | Thu 9/3   | Convex Sets                             |                |                            |
 | Tue 9/8   | Convex Functions                        | B&V Ch 3       |                            |
 | Thu 9/10  | Convex Functions                        |                |                            |
