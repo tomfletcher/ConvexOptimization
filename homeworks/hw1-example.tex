@@ -1,0 +1,152 @@
+\documentclass[11pt]{article}
+\usepackage{fullpage,url,hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\usepackage[letterpaper,top=1in,bottom=1in,left=1in,right=1in,nohead]{geometry}
+
+\setlength{\parindent}{0in}
+\setlength{\parskip}{6pt}
+
+\begin{document}
+\thispagestyle{empty}
+{\large{\bf ECE 6701 + CS 6501: Optimization for Engineering \hfill Due Fri 9/18}}\\
+
+{\LARGE{\bf Homework 1: Convex Sets and Functions}}
+\vspace{0.2\baselineskip}
+\hrule
+
+{\bf Instructions:} Submit a single Jupyter notebook (.ipynb) of your work to
+Canvas by 11:59pm on the due date. All math must be formatted using LaTeX. {\bf Be sure to show all the work involved in deriving your answers! If you just give
+  a final answer without explanation, you may not receive credit for that
+  question.}
+
+You may discuss the concepts with your classmates, look on the internet for
+help, or ask an LLM for advice, but first try hard to solve problems on your
+own, and always write up the answers entirely on your own. Make sure you
+understand the concepts and solutions---don't just look up the answers or use AI
+to answer it for you. {\bf Cite any sources you used outside of the class
+  material (webpages, LLMs, etc.).}
+
+\begin{enumerate}
+
+\item {\bf Dual Norms}
+Let $\| \cdot \| : \mathbb{R}^n \rightarrow \mathbb{R}$ be a norm. Define the dual norm, denoted $\| \cdot \|_*$, as follows for any vector $z \in \mathbb{R}^n$:
+$$\|z\|_* = \sup \{z^T x : \|x\| \leq 1 \}.$$
+
+\begin{enumerate}
+  \item Show that $\| \cdot \|_*$ is a norm, i.e., show it satisfies the four requirements to be a norm that we covered in class.
+
+{\bf Hint:} You may use the following fact (without proving it yourself). Let $S$ be a set and $f : S \rightarrow \mathbb{R}$, $g : S \rightarrow \mathbb{R}$. Then,
+$$\sup \{ f(s) + g(s) : s \in S\} \leq \sup \{f(s) : s \in S\} + \sup \{g(s) : s \in S\}$$
+
+\item Show that the dual of the dual of a norm is the original norm. That is, for any norm $\| \cdot \|$, we have
+$$\|x\|_{**} = \|x\|, \quad \text{for all $x \in \mathbb{R}^n$}.$$
+
+\item Show that the dual of the $L^2$ norm (a.k.a. Euclidean norm) is again the $L^2$ norm. That is,
+$$\|x\|_{2*} = \|x\|_2, \quad \text{for all $x \in \mathbb{R}^n$}.$$
+{\bf Hint:} You might find the Cauchy-Schwarz inequality useful!
+
+\end{enumerate}
+
+{\bf Not required---don't turn in!} If you want to go further, you might
+  be interested to prove to yourself the following facts (or look up the
+  proofs):
+  \begin{itemize}
+  \item The dual of the $L^1$ norm is the $L^\infty$ norm.
+  \item The dual of the $L^p$ norm is the $L^q$ norm, where
+    $\frac{1}{p} + \frac{1}{q} = 1$. This follows from a relation known as
+    Holder's Inequality, which is a generalization of the Cauchy-Schwarz
+    Inequality.  See Appendix A.1.6 (dual norms) and Section 3.1.9 (Holder's
+    Inequality) of the B\&V book and also the Wikipedia pages on ``Dual Norm,''
+    ``$L^p$ Space,'' and ``Holder's Inequality'' for more information.
+  \end{itemize}
+  
+
+\item {\bf Point on a Hyperplane Closest to the Origin}
+  
+  Let $a \in \mathbb{R}^n, a \neq 0$, and $b \in \mathbb{R}$. Define the hyperplane
+  $$S = \{x \in \mathbb{R}^n : a^T x = b\}.$$
+  Give an expression for the point $x_0 \in S$ that is closest to the origin in Euclidean distance, or said another way, the point where the $L^2$ norm is minimal:
+  $$x_0 = \arg \min_{x \in S} \|x\|_2.$$ {\bf Hint:} The formula for $x_0$ should be an expression in terms of $a$ and $b.$
+
+\item {\bf Intersection of Hyperplanes}
+
+  Consider two hyperplanes, defined by $a_1, a_2 \in \mathbb{R}^n, a_1 \neq 0, a_2 \neq 0,$ and $b_1, b_2 \in \mathbb{R}:$
+  \begin{align*}
+    S_1 &= \{ x \in \mathbb{R}^n : a_1^T x = b_1\}, \\
+    S_2 &= \{ x \in \mathbb{R}^n : a_2^T x = b_2\}.
+  \end{align*}
+
+  \begin{enumerate}
+    \item Under what conditions are these hyperplanes disjoint, i.e., $S_1 \cap S_2 = \emptyset$?
+      (State the conditions precisely in terms of the $a_i$ and $b_i$.)
+
+    \item When $S_1$ and $S_2$ do intersect, what kind of space is $S_1 \cap S_2$?
+      What is its dimension? Please list all possible cases ({\bf hint:} there are two
+      cases, with two different dimensions), and describe the conditions under which
+      each case happens.
+
+\end{enumerate}
+
+
+\item {\bf Convex Cones from Convex Sets}
+  
+  Let $S \subset \mathbb{R}^n$ be a convex set. Define the set
+  $$C = \{\theta x : x \in S, \theta \geq 0\}.$$
+  Show that $C$ is a convex cone.
+
+\item {\bf Convex Combinations and Convex Functions}
+
+  \begin{enumerate}
+
+  \item Let $C \subset \mathbb{R}^n$ be a convex set, and let $f : C \rightarrow \mathbb{R}$
+    be a convex function. Show that for any $x_1, \ldots, x_k \in C$ and any
+    $\theta_1, \ldots, \theta_k \geq 0$, with $\theta_1 + \cdots + \theta_k = 1$, 
+    $$f(\theta_1 x_1 + \cdots \theta_k x_k) \leq \theta_1 f(x_1) + \cdots + \theta_k f(x_k).$$
+
+  \item Let $f : \mathbb{R}^n \rightarrow \mathbb{R}$ be a convex function. Show that for any
+    $x_1, \ldots, x_k \in \mathbb{R}^n$ and any $\theta_1 > 0,$ and $\theta_2, \ldots, \theta_k \leq 0$,
+    with $\theta_1 + \cdots + \theta_k = 1,$
+    $$f(\theta_1 x_1 + \cdots + \theta_k x_k) \geq \theta_1 f(x_1) + \cdots + \theta_k f(x_k).$$
+    ({\bf Careful:} Pay close attention to the direction of the various inequality signs!)
+
+\end{enumerate}
+
+\item {\bf Convex Function or Not?}
+
+For each of the following functions, $f : \mathbb{R}^n \rightarrow \mathbb{R}$,
+state whether it is convex, concave, both, or neither. Justify your answer in
+each case.
+\begin{enumerate}
+\item $f(x) = x^T x - \frac{1}{n} (1^T x)^2$
+\item $f(x) = \|x\|_1 + \frac{1}{2} \|x\|_2^2$
+\item
+$f(x) = \log \frac{\exp(a^T x + b)}{1 + \exp(a^T x + b)}, \quad \text{for $a \in \mathbb{R}^n \backslash \{0\}, b \in \mathbb{R}$}$
+\end{enumerate}
+
+\item {\bf Epigraphs of Functions}
+
+Problem 3.6 from B\&V: When is the epigraph of a function a halfspace? When is the
+epigraph of a function a convex cone? When is the epigraph of a function a polyhedron?
+
+\end{enumerate}
+
+\section*{Bonus \LaTeX Example}
+Here is a simple proof of the Cauchy-Schwarz inequality, just for an example of
+how to use the {\tt align} environment to do a step-by-step calculation.
+
+Given two vectors $v = (v_1, \ldots, v_n) \in \mathbb{R}^n$ and $w = (w_1,
+\ldots, w_n) \in \mathbb{R}^n$, our goal is to show the Cauchy-Schwarz
+inequality:
+$$|\langle v, w \rangle| \leq \|v\|_2 \|w\|_2.$$
+We start with rewriting the following quadratic:
+\begin{align*}
+  0 & \leq \sum_i \sum_j (v_i w_j - v_j w_i)^2 & \text{non-negative because it's a square}\\
+    & = \sum_i \sum_j v_i^2 w_j^2 - 2 v_i w_i v_j w_j + v_j^2 w_i^2 & \text{expanding terms}\\
+    & = 2 \|v\|_2^2 \|w\|_2^2 - 2\langle v, w \rangle^2 & \text{writing sums as inner product / norm}\\
+\end{align*}
+Now, by moving the last term to the other side of the inequality, we get:
+$$\langle v, w \rangle^2 \leq \|v\|_2^2 \|w\|_2^2.$$
+Taking the square-root of both sides gives us the Cauchy-Schwarz inequality.
+\end{document}
