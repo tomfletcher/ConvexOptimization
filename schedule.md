@@ -11,8 +11,8 @@
 | Tue 9/15  | Convex Functions                        |                |                            |
 | Thu 9/17  | Convex Optimization Problems            | B&V Ch 4       |                            |
 | Tue 9/22  | Convex Optimization Problems            |                |                            |
-| Thu 9/24  | Duality<br>**Quiz 1: Convex Sets and Convex Functions** | B&V Ch 5 |                  |
-| Tue 9/29  | Duality<br>*Prof out of town - recorded lecture* |       |                            |
+| Thu 9/24  | Convex Optimization Problems<br>**Quiz 1: Convex Sets and Convex Functions** |  | [HW 2](homeworks/hw2.pdf) **Due Fri, 10/9**<br>[LaTeX Source](homeworks/hw2.tex) |
+| Tue 9/29  | Duality<br>*Prof out of town - recorded lecture* | B&V Ch 5 |                         |
 | Thu 10/1  | Duality<br>*Prof out of town - recorded lecture* |       |                            |
 | Tue 10/6  | *No Class -- Reading Day*               |                |                            |
 | Thu 10/8  | Approximation and Fitting               | B&V Ch 6       |                            |
