@@ -78,13 +78,13 @@ to answer it for you. {\bf Cite any sources you used outside of the class
 
 \item Use CVXPY to solve problem 3 above and verify the analytic solution.
 
-\item Exercise 4.5 in B\&V.
+\item Exercise 4.4 in B\&V.
   
 \item {\bf Quadratic Programming} (Extended version of Exercise 4.22 in B\&V)
   Consider the QCQP
 \begin{align*}
 \text{minimize} \quad & (1/2)x^T A x + b^Tx + c\\
-\text{subject to} \quad & x^T x \leq 0,
+\text{subject to} \quad & x^T x \leq 1,
 \end{align*}
 with $A \in S_{++}^n, b \in \mathbb{R}^n,$ and $c \in \mathbb{R}$.
 \begin{enumerate}
@@ -94,14 +94,14 @@ with $A \in S_{++}^n, b \in \mathbb{R}^n,$ and $c \in \mathbb{R}$.
   $$b^T (A + \lambda I)^{-2} b = 1.$$
 
 \item Consider the relationship of this problem to the group invariance in the
-  previous problem (Exercise 4.5). Under what conditions on the parameters
+  previous problem (Exercise 4.4). Under what conditions on the parameters
   $A, b, c$ is this QCQP invariant to permutations of $x$? {\bf Hint:} Be sure
   to describe the most general conditions under which permutation invariance
   will hold. The trickiest is the condition on the matrix $A$ - be sure to state
   the condition on $A$ that ensures permutation invariance {\em and} symmetric
   positive-definiteness.
 
-\item Using the result of Exercise 4.5, simplify the above QCQP to a
+\item Using the result of Exercise 4.4, simplify the above QCQP to a
   one-dimensional optimization problem in the case that permutation invariance
   holds (that is, the conditions you found in part (b) hold.) Write expressions
   for the (univariate) objective function and (univariate) inequality
@@ -113,7 +113,7 @@ with $A \in S_{++}^n, b \in \mathbb{R}^n,$ and $c \in \mathbb{R}$.
   are okay! (Just to be clear, $A = 0$ is considered a diagonal matrix and is
   thus not allowed.) Now, use CVXPY to solve this problem in the original
   ($n$-dimensional) form. Use CVXPY to solve it again in the reduced
-  $1$-dimensional form you derived in part (d) to confirm that the solution is
+  $1$-dimensional form you derived in part (c) to confirm that the solution is
   the same.
 \end{enumerate}
 
