@@ -18,7 +18,7 @@
 | Thu 10/8  | Duality                                 |                |                            |
 | Tue 10/13 | Approximation and Fitting               | B&V Ch 6       |                            |
 | Thu 10/15 | Statistical Estimation                  | B&V Ch 7       |                            |
-| Tue 10/20 | Geometric Problems                      | B&V Ch 8       |                            |
+| Tue 10/20 | Geometric Problems<br>**Quiz 2: Convex Optimization Problems** | B&V Ch 8 |           |
 | Thu 10/22 | Geometric Problems                      |                |                            |
 | Tue 10/27 | Unconstrained Minimization              | B&V Ch 9       |                            |
 | Thu 10/29 | Unconstrained Minimization              |                |                            |
