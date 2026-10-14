@@ -16,7 +16,7 @@
 | Thu 10/1  | Duality<br>*Prof out of town - recorded lecture* |       |                            |
 | Tue 10/6  | *No Class -- Reading Day*               |                |                            |
 | Thu 10/8  | Duality                                 |                |                            |
-| Tue 10/13 | Duality                                 |                | [HW 3](homeworks/hw2.pdf) **Due Wed, 10/28**[LaTeX Source](homeworks/hw3.tex) |
+| Tue 10/13 | Duality                                 |                | [HW 3](homeworks/hw2.pdf) **Due Wed, 10/28**<br>[LaTeX Source](homeworks/hw3.tex) |
 | Thu 10/15 | Approximation and Fitting               | B&V Ch 6       |                            |
 | Tue 10/20 | Statistical Estimation<br>**Quiz 2: Convex Optimization Problems** | B&V Ch 7 |           |
 | Thu 10/22 | Statistical Estimation                  |                |                            |
