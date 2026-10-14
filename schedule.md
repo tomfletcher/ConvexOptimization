@@ -16,19 +16,19 @@
 | Thu 10/1  | Duality<br>*Prof out of town - recorded lecture* |       |                            |
 | Tue 10/6  | *No Class -- Reading Day*               |                |                            |
 | Thu 10/8  | Duality                                 |                |                            |
-| Tue 10/13 | Approximation and Fitting               | B&V Ch 6       |                            |
-| Thu 10/15 | Statistical Estimation                  | B&V Ch 7       |                            |
-| Tue 10/20 | Geometric Problems<br>**Quiz 2: Convex Optimization Problems** | B&V Ch 8 |           |
-| Thu 10/22 | Geometric Problems                      |                |                            |
-| Tue 10/27 | Unconstrained Minimization              | B&V Ch 9       |                            |
-| Thu 10/29 | Unconstrained Minimization              |                |                            |
+| Tue 10/13 | Duality                                 |                | [HW 3](homeworks/hw2.pdf) **Due Wed, 10/28**[LaTeX Source](homeworks/hw3.tex) |
+| Thu 10/15 | Approximation and Fitting               | B&V Ch 6       |                            |
+| Tue 10/20 | Statistical Estimation<br>**Quiz 2: Convex Optimization Problems** | B&V Ch 7 |           |
+| Thu 10/22 | Statistical Estimation                  |                |                            |
+| Tue 10/27 | Geometric Problems                      | B&V Ch 8       |                            |
+| Thu 10/29 | Geometric Problems                      |                |                            |
 | Tue 11/3  | *No Class -- Election Day*              |                |                            |
-| Thu 11/5  | Equality Constrained Minimization       | B&V Ch 10      |                            |
-| Tue 11/10 | Interior Point Methods                  | B&V Ch 11      |                            |
-| Thu 11/12 | Interior Point Methods                  |                |                            |
-| Tue 11/17 | Numerical Linear Algebra and Complexity |                |                            |
-| Thu 11/19 | Conjugate Gradient Method               |                |                            |
-| Tue 11/24 | Accelerated Gradient Method             |                |                            |
+| Thu 11/5  | Unconstrained Minimization              | B&V Ch 9       |                            |
+| Tue 11/10 | Unconstrained Minimization              |                |                            |
+| Thu 11/12 | Equality Constrained Minimization       | B&V Ch 10      |                            |
+| Tue 11/17 | Interior Point Methods                  | B&V Ch 11      |                            |
+| Thu 11/19 | Interior Point Methods                  |                |                            |
+| Tue 11/24 | Conjugate Gradient Method               |                |                            |
 | Thu 11/26 | *No Class -- Thanksgiving Break*        |                |                            |
 | Tue 12/1  | Stochastic Gradient Descent             |                |                            |
 | Thu 12/3  | Natural Gradient Descent                |                |                            |
