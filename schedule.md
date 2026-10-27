@@ -18,15 +18,15 @@
 | Thu 10/8  | Duality                                 |                |                            |
 | Tue 10/13 | Duality                                 |                | [HW 3](homeworks/hw3.pdf) **Due Wed, 10/28**<br>[LaTeX Source](homeworks/hw3.tex) |
 | Thu 10/15 | Approximation and Fitting               | B&V Ch 6       |                            |
-| Tue 10/20 | Statistical Estimation<br>**Quiz 2: Convex Optimization Problems** | B&V Ch 7 |           |
+| Tue 10/20 | Statistical Estimation<br>**Quiz 2: Convex Optimization Problems** | B&V Ch 7 |       |
 | Thu 10/22 | Statistical Estimation                  |                |                            |
 | Tue 10/27 | Geometric Problems                      | B&V Ch 8       |                            |
 | Thu 10/29 | Geometric Problems                      |                |                            |
 | Tue 11/3  | *No Class -- Election Day*              |                |                            |
 | Thu 11/5  | Unconstrained Minimization              | B&V Ch 9       |                            |
-| Tue 11/10 | Unconstrained Minimization              |                |                            |
+| Tue 11/10 | Unconstrained Minimization<br>**Quiz 3: Duality** |      |                            |
 | Thu 11/12 | Equality Constrained Minimization       | B&V Ch 10      |                            |
-| Tue 11/17 | Interior Point Methods                  | B&V Ch 11      |                            |
+| Tue 11/17 | Interior Point Methods<br>*Prof out of town - recorded lecture* | B&V Ch 11 |         |
 | Thu 11/19 | Interior Point Methods                  |                |                            |
 | Tue 11/24 | Conjugate Gradient Method               |                |                            |
 | Thu 11/26 | *No Class -- Thanksgiving Break*        |                |                            |
