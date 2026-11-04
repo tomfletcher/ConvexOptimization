@@ -24,8 +24,8 @@
 | Thu 10/29 | Geometric Problems                      |                |                            |
 | Tue 11/3  | *No Class -- Election Day*              |                |                            |
 | Thu 11/5  | Unconstrained Minimization              | B&V Ch 9       |                            |
-| Tue 11/10 | Unconstrained Minimization<br>**Quiz 3: Duality** |      |                            |
-| Thu 11/12 | Equality Constrained Minimization       | B&V Ch 10      |                            |
+| Tue 11/10 | Unconstrained Minimization              |                |                            |
+| Thu 11/12 | Equality Constrained Minimization <br>**Quiz 3: Duality** | B&V Ch 10 |               |
 | Tue 11/17 | Interior Point Methods<br>*Prof out of town - recorded lecture* | B&V Ch 11 |         |
 | Thu 11/19 | Interior Point Methods                  |                |                            |
 | Tue 11/24 | Conjugate Gradient Method               |                |                            |
