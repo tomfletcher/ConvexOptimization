@@ -23,7 +23,7 @@
 | Tue 10/27 | Geometric Problems                      | B&V Ch 8       |                            |
 | Thu 10/29 | Geometric Problems                      |                |                            |
 | Tue 11/3  | *No Class -- Election Day*              |                |                            |
-| Thu 11/5  | Unconstrained Minimization              | B&V Ch 9       | [HW 4](homeworks/hw4.pdf) **Due Fri, 11/20** |
+| Thu 11/5  | Unconstrained Minimization              | B&V Ch 9       | [HW 4](homeworks/hw4.pdf) **Due Fri, 11/20**<br>[fMRI Code](homeworks/fMRI_brain_network.ipynb) |
 | Tue 11/10 | Unconstrained Minimization              |                |                            |
 | Thu 11/12 | Equality Constrained Minimization <br>**Quiz 3: Duality** | B&V Ch 10 |               |
 | Tue 11/17 | Interior Point Methods<br>*Prof out of town - recorded lecture* | B&V Ch 11 |         |
