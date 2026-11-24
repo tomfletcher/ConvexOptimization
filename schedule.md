@@ -28,7 +28,7 @@
 | Thu 11/12 | Equality Constrained Minimization <br>**Quiz 3: Duality** | B&V Ch 10 |               |
 | Tue 11/17 | [Interior Point Methods](lectures/L10-EqualityConstrainedOptimization.pdf)<br>*Prof out of town - recorded lecture* | B&V Ch 11 |         |
 | Thu 11/19 | Interior Point Methods                  |                |                            |
-| Tue 11/24 | Conjugate Gradient Method               | [Drusvyatskiy, Section 2.6](https://sites.math.washington.edu/%7Eddrusv/crs/Math_516/bookwithindex.pdf) |  |
+| Tue 11/24 | Conjugate Gradient Method               | [Drusvyatskiy, Section 2.6](https://sites.math.washington.edu/%7Eddrusv/crs/Math_516/bookwithindex.pdf) | [HW 5](homeworks/hw5.pdf) **Due Fri, 12/11** |
 | Thu 11/26 | *No Class -- Thanksgiving Break*        |                |                            |
 | Tue 12/1  | Stochastic Gradient Descent             |                |                            |
 | Thu 12/3  | Natural Gradient Descent                |                |                            |
