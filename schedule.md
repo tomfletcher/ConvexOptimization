@@ -26,9 +26,9 @@
 | Thu 11/5  | Unconstrained Minimization              | B&V Ch 9       | [HW 4](homeworks/hw4.pdf) **Due Fri, 11/20**<br>[fMRI Code](homeworks/fMRI_brain_network.ipynb) |
 | Tue 11/10 | Unconstrained Minimization              |                |                            |
 | Thu 11/12 | Equality Constrained Minimization <br>**Quiz 3: Duality** | B&V Ch 10 |               |
-| Tue 11/17 | Interior Point Methods<br>*Prof out of town - recorded lecture* | B&V Ch 11 |         |
+| Tue 11/17 | [Interior Point Methods](lectures/L10-EqualityConstrainedOptimization.pdf)<br>*Prof out of town - recorded lecture* | B&V Ch 11 |         |
 | Thu 11/19 | Interior Point Methods                  |                |                            |
-| Tue 11/24 | Conjugate Gradient Method               |                |                            |
+| Tue 11/24 | Conjugate Gradient Method               | [Drusvyatskiy, Section 2.6](https://sites.math.washington.edu/%7Eddrusv/crs/Math_516/bookwithindex.pdf) |  |
 | Thu 11/26 | *No Class -- Thanksgiving Break*        |                |                            |
 | Tue 12/1  | Stochastic Gradient Descent             |                |                            |
 | Thu 12/3  | Natural Gradient Descent                |                |                            |
